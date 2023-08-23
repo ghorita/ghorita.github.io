@@ -7,6 +7,7 @@
 }
 
 body {
+    background-color: black;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -111,4 +112,34 @@ header .navegacao-primaria li a {
         opacity: 1;
         transform: translate3d(0, 0, 0);
     }
+}
+
+/* SEÇÃO PRINCIPAL SOBRE MIM */
+
+main {
+    background-color: #111;
+    color: white;
+}
+
+main .sobre {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    justify-content: center;
+    padding: 40px;
+}
+
+.sobre_titulo {
+    margin: 30px 0;
+    grid-column: 1/-1;
+    text-align: center;
+    color: #fff;
+}
+
+.sobre_titulo h1 {
+    font-size: 2.5rem;
+    color: #ff5d56;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
 }
