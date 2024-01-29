@@ -767,10 +767,11 @@ main .sobre {
 }
 
 .projects_armazenamento ul li img {
-    max-width: 90%;
-    height: 90%;
+    width: 90%;
+    height: 35vh;
     border-radius: 4px;
     cursor: pointer;
+    margin-top: 20px;
 }
 
 .projects_models ul li.ativo {
