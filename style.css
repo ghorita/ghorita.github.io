@@ -843,3 +843,12 @@ footer .footer_comercial {
     font-size: 1.5rem;
     font-family: 'Poppins';
 }
+
+@media (max-width: 785px) {
+    #design img {
+        height: 100%;
+    }
+    .sobre_info p{
+        display: none;
+    }
+}
